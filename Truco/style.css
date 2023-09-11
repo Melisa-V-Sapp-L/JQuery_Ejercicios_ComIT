@@ -1,0 +1,81 @@
+article {
+	background: green;
+	width: 80vw;
+	height: 200vh;
+	margin: 1%;
+	padding: 1%;
+}
+input {
+	background: green;
+	font-family: verdana;
+	font-size: 150%;
+	color: white;
+	border: 3px solid white;
+	text-align: center;	
+}
+div {
+	float: left;
+	margin: 1px 1px;
+	padding: 1%;	
+}
+p {
+	margin: 1px 1px;
+	padding: 1%;
+}
+::placeholder { color: white; }
+/*pantalla 1*/
+.pant1{
+	display: block;
+	visibility: visible;
+}
+.teams{
+	width: 80%;
+	text-align: center;
+	margin: 10% 5%;
+	padding: 5%;	
+}
+.btn{
+	width: 40%;
+	float: right;
+	margin: 5% 5%;
+	padding: 5%;
+}
+/*pantalla 2*/
+.pant2 {
+	display: none;
+	visibility: hidden;
+}
+.text{
+	margin: 1px 1px;
+	padding: 2%;
+	width: 15vw;
+	height: 10vh;
+	border: none;
+	
+}
+#suma1, #suma2, #resta1, #resta2, #fin {
+	margin: 1px 1px;
+	padding: 2%;
+	width: 10vw;
+	height: 10vh;
+}
+#equipo1, #equipo2 {
+	border: none;
+	margin: 1px 35px;
+	padding: 1% 0%;
+	width: 50%;	
+}
+.anotador1{
+	width: 45%;
+	border-right: 3px solid white;	
+}
+.anotador2{
+	width: 45%;	 			
+}
+.anotador3{
+	width: 80%;
+	display: flex; 
+	flex-direction: row;
+	text-align: center;	 
+	
+}

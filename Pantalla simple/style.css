@@ -1,0 +1,35 @@
+section {
+
+	height: 50vh;
+	width: 30vw;
+	text-align: center;
+	padding: 2%;
+
+}
+
+button {
+
+	font-family: Century Gothic;
+	text-align: center;
+	margin: 5%;
+	padding: 5%;
+	size: 10%;
+}
+
+#color1{
+	background-color: red;
+	
+}
+#color2{
+	background-color: yellow;
+}
+#color3{
+	background-color: green;
+}
+#color4{
+	background-color: white;
+}
+
+#color7{
+	background-color: lightgrey ;
+}

@@ -1,0 +1,2 @@
+fondo oscuro: #303030;
+fondo claro:  #ffffff;

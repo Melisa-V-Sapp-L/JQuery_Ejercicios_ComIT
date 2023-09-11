@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anotador de truco</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<section>
+		<article id="pantalla1" class="pant1">
+		<input type="text" id="team1" class="teams" maxlength="10" placeholder="Equipo 1" />
+		<input type="text" id="team2" class="teams" maxlength="10" placeholder="Equipo 2" />
+		<br>
+		<input type="button" value="30" id="btn30" class="btn" >
+		<input type="button" value="24" id="btn24" class="btn" >
+		<br>
+		<input type="button" value="Iniciar" id="btni" class="btn" >
+	    </article>
+	    
+	    <article id="pantalla2" class="pant2">	
+	    	<div class="anotador1">
+	    		<p>
+	    		    <input type="button" value="+" id="suma1" class="s1" />
+	    		    <input type="text" id="equipo1" class="text"/>
+	    		</p>
+	    		<center>
+	    			<p>
+	    			    <img id="a1" alt="fosforo" src="0.png">
+	    			    <br>
+	    			    <img id="a2" alt="fosforo" src="0.png">
+	    			    <br>
+	    			    <img id="a3" alt="fosforo" src="0.png">
+	    		    </p>
+	    		    <p>
+	    			    <img id="a4" alt="fosforo" src="0.png">
+	    			    <br>
+	    			    <img id="a5" alt="fosforo" src="0.png">
+	    			    <br>
+	    			    <img id="a6" alt="fosforo" src="0.png">
+	    			</p>
+	    		</center>
+	    	</div>
+	    	<div class="anotador2">
+	    		<p>
+	    		    <input type="text" id="equipo2" class="text" />
+	    		    <input type="button" value="+" id="suma2" class="s2" />
+	    		</p>
+	    		<center>
+	    			<p>
+	    			    <img id="b1" alt="fosforo" src="0.png">
+	    			    <br>
+	    			    <img id="b2" alt="fosforo" src="0.png">
+	    			    <br>
+	    			    <img id="b3" alt="fosforo" src="0.png">
+	    		    </p>
+	    		    <p>
+	    			    <img id="b4" alt="fosforo" src="0.png">
+	    			    <br>
+	    			    <img id="b5" alt="fosforo" src="0.png">
+	    			    <br>
+	    			    <img id="b6" alt="fosforo" src="0.png">
+	    			</p>
+	    		</center>	    		
+	    	</div>
+	    	<div class="anotador3">
+	    		
+	    		<p>
+	    			<input type="button" value="-" id="resta1" class="r1" />
+	    		</p>
+	    		<p>
+	    			<input type="text" id="puntos1" class="text" />
+	    		</p>
+	    		<p>
+	    			<center>
+	    			<input type="text" id="moda" class="text" />
+	    			<br>
+	    			<input type="button" value="Fin" id="fin"  />
+	    			</center>
+	    		</p>
+	    		<p>
+	    			<input type="text" id="puntos2" class="text" />
+	    		</p>	
+	    		<p>
+	    			<input type="button" value="-" id="resta2" class="r2" />
+	    		</p>
+	    		
+	    		
+	    	</div>
+	    </article>
+	</section>
+    <script src="jquery-3.2.1.min.js"></script>
+    <script src="anotador.js"></script>
+</body>
+</html>
